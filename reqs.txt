@@ -1,0 +1,30 @@
+For library management, this project considers six departments – Computer, Electrical, Civil, Electronics, Mechanical, and Architecture. These departments work simultaneously with the operations mentioned above. 
+
+Create books in 6 sections of departments and build a shelf of 3 to 5 books. You may use arrays or vectors.
+Create a class hierarchy. Dept has many books. 
+Department of books would come from a file.  Computer.txt, Electrical.txt, etc. 
+Establish basic fields members needed for a book
+Create a module to have user selects a department based in a menu and can search for a book in that department to check out
+Allow the User to check out the books selected in the cart.
+You can add a book to the Civil section, delete a book from the Electrical section or view issued book details of the Mechanical department.
+Print final checkout receipt as output to screen
+Requirements:
+
+Must use arrays, vectors, pointers, build classes that will support the data, have a virtual function, have a base/derived class example,  display the data. and have a menu to select which module functionality. Also, work with file input and output. Take advantage and separate logic and implementation with headers and CPP files.
+
+Deliverables:
+
+1.  Requirement Doc Sections 1 - 3.4 and 3.8 and 4 Use Case Diagram
+
+2.  Design Document with UML Diagrams
+
+3.  Code, Pseudocode of 2 Key functions.
+
+4.  Powerpoint Presentation of Key functionality
+
+Screenshots and Explanation,
+slide Assumptions,
+slide on Roadblocks, and
+slide what would you do with more than a week of development.
+
+5.   Testing Document  5 pts Extra Credit!!!!
