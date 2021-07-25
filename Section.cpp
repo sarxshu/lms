@@ -1,13 +1,6 @@
-class Section
-{
-private:
-    /* data */
-public:
-    Section(/* args */);
-    ~Section();
-};
+#include"Section.h"
 
-Section::Section(/* args */)
+Section::Section()
 {
 
 }

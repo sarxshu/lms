@@ -1,17 +1,8 @@
 #include<iostream>
 #include<string>
-#include"Book.cpp"
 
-
-class Author
-{
-private:
-    /* data */
-    string name;
-public:
-    Author();
-    ~Author();
-};
+#include"Author.h"
+#include"Book.h"
 
 Author::Author(string n)
 {
