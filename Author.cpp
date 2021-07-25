@@ -4,6 +4,11 @@
 #include"Author.h"
 #include"Book.h"
 
+Author::Author()
+{
+    name = "uknown";
+}
+
 Author::Author(string n)
 {
     name = n;

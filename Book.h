@@ -6,14 +6,14 @@
 
 class Book
 {
-private:
-    string name;
-    Author author;
-    Section section;
-public:
-    Book();
-    Book(string);
-    //void getName();
-    ~Book();
-};
+    private:
+        string name;
+        Author author;
+        Section section;
+    public:
+        Book();
+        Book(string);
+        //void getName();
+        ~Book();
+    };
 #endif
