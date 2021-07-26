@@ -18,5 +18,5 @@ class Student {
 
 #endif
 
-// change to user add priorities
+// change to user add priorities ???
 // set password ffrom superuser to be able to create other admins

@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 	displayWelcome();
 	do
 	{
-		displayMenu(); // shows up twice after making choice.
+		displayMenu(); //TODO: shows up twice after making choice. fix
 		ch = getchar();
 		processMenuSelection(ch);
 	} while (ch != '0');
