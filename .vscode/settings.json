@@ -1,5 +1,7 @@
 {
     "files.associations": {
         "iosfwd": "cpp"
-    }
+    },
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false,
 }
