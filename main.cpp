@@ -71,6 +71,19 @@ void studentSignin()
 }
 
 void adminSignin()
+{	
+	loginPrompt();
+	//cout << "finish adminSignin on main." << endl;
+}
+
+void loginPrompt()
 {
-	cout << "finish adminSignin on main." << endl;
+	string userName;
+	char passWord[20];
+
+	cout << "Enter the username: ";
+	cin >> userName;
+
+	cout << "\nEnter the password: ";
+	cin >> passWord;
 }

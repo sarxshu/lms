@@ -9,7 +9,7 @@ class Student
 {
 private:
 	string name;
-	int idNumber;		  // idk
+	int idNumber;		  // idk 
 	Book booksRented[10]; // 10 should be max number of books any student can rent
 public:
 	Student();
