@@ -14,6 +14,4 @@ Section::Section(string n, Book b)
 	books.push_back(b);
 }
 
-Section::~Section()
-{
-}
+Section::~Section() {};

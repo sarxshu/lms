@@ -3,6 +3,7 @@
 #include <istream>
 #include <stdio.h>
 #include <string>
+#include <cstring>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ void displayMenu();
 void processMenuSelection(char);
 void studentSignin();
 void adminSignin();
+void loginPrompt();
 
 int main(int argc, char const *argv[])
 {
@@ -67,23 +69,25 @@ void processMenuSelection(char option)
 
 void studentSignin()
 {
-	cout << "finish studentSignin on main." << endl;
+	loginPrompt();
 }
 
 void adminSignin()
 {	
-	loginPrompt();
-	//cout << "finish adminSignin on main." << endl;
+	bool pwIsValid;
+	
 }
 
 void loginPrompt()
 {
 	string userName;
-	char passWord[20];
+	char passWord[8];
 
 	cout << "Enter the username: ";
 	cin >> userName;
 
 	cout << "\nEnter the password: ";
 	cin >> passWord;
+
+	//return passWord;
 }

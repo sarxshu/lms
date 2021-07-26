@@ -2,13 +2,14 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
+#include "User.h"
+
 #include <string>
 using namespace std;
 
-class Student
+class Student: public User
 {
 private:
-	string name;
 	int idNumber;		  // idk 
 	Book booksRented[10]; // 10 should be max number of books any student can rent
 public:
