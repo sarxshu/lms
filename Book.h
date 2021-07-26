@@ -9,10 +9,12 @@ class Book
     private:
         string name;
         Author author;
-        Section section;
+        Section section = Section("General");
     public:
         Book();
-        Book(string);
+        Book(string, string);
+        Book(string, Author);
+        Book(string, string, string);
         //void getName();
         ~Book();
     };

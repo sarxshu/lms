@@ -17,6 +17,7 @@ class Author
     public:
         Author();
         Author(string);
+        Author(string, string);
         ~Author();
 };
 

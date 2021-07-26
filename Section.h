@@ -4,12 +4,18 @@
 #include"Author.h"
 #include"Section.h"
 
+#include<string>
+#include<vector>
+
 class Section
 {
     private:
-        /* data */
+        string name;
+        vector<Book> books;
     public:
-        Section(/* args */);
+        Section(string);
+        Section(string, Book);
         ~Section();
 };
+
 #endif
