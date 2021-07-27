@@ -14,7 +14,7 @@ class Author
 {
 private:
 	string name;
-	vector<Book> books;
+	// vector<Book> books;
 
 public:
 	Author();

@@ -8,16 +8,15 @@
 class Book
 {
 private:
-	string name;
+	string title;
 	Author author;
-	Section section = Section("General");
+	bool isAvailable = true;
 
 public:
 	Book();
 	Book(string, string);
 	Book(string, Author);
 	Book(string, string, string);
-	//void getName();
 	~Book();
 };
 #endif

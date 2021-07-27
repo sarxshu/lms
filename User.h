@@ -12,6 +12,7 @@ private:
 	string name;
 
 public:
+	User();
 	User(string);
 	User(string, bool); 
 	~User();

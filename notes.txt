@@ -1,0 +1,7 @@
+
+know if checked out / available
+field isavailable
+only present available books
+
+maybe think about erasing admin
+

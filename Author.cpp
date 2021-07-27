@@ -7,19 +7,12 @@
 
 Author::Author()
 {
-	name = "uknown";
+	name = "";
 }
 
 Author::Author(string n)
 {
 	name = n;
-}
-
-Author::Author(string n, string b)
-{
-	name = n;
-	Book book = Book(b, Author(n));
-	books.push_back(book);
 }
 
 Author::~Author()

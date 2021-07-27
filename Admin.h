@@ -9,7 +9,7 @@
 class Admin: public User
 {
 private:
-	isAdmin = true;
+	// isAdmin = true; //TODO fix this error
 
 public:
 	Admin(string);

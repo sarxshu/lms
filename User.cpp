@@ -5,6 +5,11 @@
 
 using namespace std;
 
+User::User()
+{
+	name = " ";
+}
+
 User::User(string n)
 {
 	name = n;

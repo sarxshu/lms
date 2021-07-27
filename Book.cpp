@@ -7,29 +7,31 @@
 
 Book::Book()
 {
-	name = "uknown";
-	author = Author();
+	title = "";
+	author = Author("");
 }
 
-Book::Book(string n, string a)
+Book::Book(string t, string a)
 {
-	name = n;
+	title = t;
 	author = Author(a);
 }
 
-Book::Book(string n, Author a)
+Book::Book(string t, Author a)
 {
-	name = n;
+	title = t;
 	author = a;
 }
 
-Book::Book(string n, string a, string s)
+Book::Book(string t, string a, string s)
 {
-	name = n;
-	author = Author(a, name);
-	section = Section(s);
+	title = t;
+	author = Author(a, title);
+	// section = Section(s);
 }
 
 Book::~Book()
 {
 }
+
+
