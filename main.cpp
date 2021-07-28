@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <string>
 #include <cstring>
+#include <fstream>
 
 using namespace std;
 
@@ -122,5 +123,12 @@ void loginPrompt()
 // create books in file
 // Department of books would come from a file.  Computer.txt, Electrical.txt, etc. 
 void populateLibrary(){
-	
+	const char *departments[6] = {"Architecture.txt", "Civil.txt", "Computer.txt", 
+	"Electrical.txt", "Electronics.txt", "Mechanical.txt"};
+
+	for (int i = 0 ; i < 6; i++){
+			//cout << departments[i];
+			
+	}
+
 }
