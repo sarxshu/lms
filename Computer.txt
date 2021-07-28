@@ -1,4 +1,4 @@
-DataProcessor			              Meyers			Computer		false
-DiskDrive			                  Weber			  Computer		false
-Central Processing Unit (CPU) 	Schmidt		  Computer		false
-HardDrive			                  Wagner			Computer		false
+DataProcessor                   Meyers      Computer    false
+DiskDrive                       Weber       Computer    false
+Central Processing Unit (CPU)   Schmidt     Computer    false
+HardDrive                       Wagner      Computer    false
