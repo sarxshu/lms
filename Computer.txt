@@ -1,0 +1,4 @@
+DataProcessor                   Meyers      Computer    false
+DiskDrive                       Weber       Computer    false
+CentralProcessingUnit           Schmidt     Computer    false
+HardDrive                       Wagner      Computer    false
